@@ -1,0 +1,52 @@
+/**{
+	margin: 0;
+	padding: 0;
+}*/
+
+body{
+	padding: 10;
+	margin: 10;
+}
+.banner{
+	background-image: url(../media/imagen.jpg);
+	background-repeat: no-repeat;  
+	background-size: cover;
+	background-position: center center;
+	height: 100vh;
+}
+h1{
+	font-family: Helvetica;
+	font-size: 1.5rem;
+	color: blue;
+	text-align: center;
+	background-color: #444;
+}
+a{
+	text-decoration: none;
+}
+
+.textos{
+	font-style: normal;
+	text-align:justify;
+	font-size:16px;
+	line-height: 1.5;
+}
+
+.textos a{
+	text-decoration:underline;
+	color: red;
+}
+
+.textos span{
+	font-weight: bold;
+}
+
+ol{
+	list-style-type: upper-latin;
+	list-style-position: inside;
+}
+
+ul{
+	list-style-position: outside;
+	list-style-image: url("../media/bullet.png");
+}
